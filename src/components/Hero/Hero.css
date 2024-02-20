@@ -1,0 +1,36 @@
+.introduction {
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro_hero_name {
+    font-size: 32px;
+}
+
+.hero_name {
+    font-size: 56px;
+}
+
+.profession {
+    font-size: 32px;
+}
+
+.intro_paragraph {
+    font-size: 20px;
+}
+
+.project_button_link {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.project_button {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+}

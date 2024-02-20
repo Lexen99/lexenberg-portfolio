@@ -1,0 +1,7 @@
+.portfolio_wrapper {
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
