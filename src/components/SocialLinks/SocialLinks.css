@@ -1,0 +1,19 @@
+.social_links {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    width: 120px;
+    height: 40px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 1px;
+    z-index: 1;
+}

@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
+import SocialLinks from "../components/SocialLinks/SocialLinks";
 import "./Home.css";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <div className="portfolio_wrapper">
         <Navbar />
         <Hero />
+        <hr className="section-divider" />
       </div>
     </main>
   );

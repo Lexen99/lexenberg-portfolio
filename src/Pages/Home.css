@@ -1,7 +1,16 @@
 .portfolio_wrapper {
-    width: 85vw;
+    width: 40vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 100px;
+}
+
+.section-divider {
+    border: none;
+    height: 1px;
+    background-color: rgba(34, 34, 34, 1);
+    margin: 0;
+    padding: 0;
+    z-index: 1;
 }
