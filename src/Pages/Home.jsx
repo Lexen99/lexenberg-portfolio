@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
+import Timeline from "../components/Timeline/TimeLine";
 import "./Home.css";
 
 const Home = () => {
