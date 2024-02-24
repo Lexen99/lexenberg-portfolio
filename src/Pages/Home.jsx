@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import Timeline from "../components/Timeline/TimeLine";
+import About from "../components/About/About";
 import "./Home.css";
 
 const Home = () => {
@@ -10,6 +11,9 @@ const Home = () => {
         <Navbar />
         <Hero />
         <hr className="section-divider" />
+        <Timeline/>
+        <hr className="section-divider" />
+        <About />
       </div>
     </main>
   );

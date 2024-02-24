@@ -1,9 +1,9 @@
 .portfolio_wrapper {
-    width: 50vw;
+    width: 40vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 40px;
 }
 
 .section-divider {
