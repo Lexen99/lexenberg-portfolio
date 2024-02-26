@@ -1,7 +1,30 @@
-#portrait {
-    height: 400px;
+.about-container {
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
 }
 
-p {
+.about-me {
     color: #fff;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+
+.portrait-container {
+    height: 380px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 7px;
+}
+
+#portrait {
+    height: 100%;
+    width: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: grayscale(40%);
+}
+
+#portrait:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
 }

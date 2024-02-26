@@ -17,12 +17,18 @@
 
 @media (max-width: 1300px) {
     .portfolio_wrapper {
-        width: 70vw;
+        width: 50vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .portfolio_wrapper {
+        width: 65vw;
     }
 }
 
 @media (max-width: 900px) {
     .portfolio_wrapper {
-        width: 85vw;
+        width: 75vw;
     }
 }
