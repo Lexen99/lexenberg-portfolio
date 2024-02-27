@@ -2,8 +2,8 @@
     color: #fff;
     font-size: 26px;
     letter-spacing: 1px;
-    font-weight: 400;
-    padding-bottom: 60px;
+    font-weight: 500;
+    padding-bottom: 30px;
 }
 
 .timeline-items {
@@ -56,14 +56,15 @@
 }
 
 .timeline-date {
-    color: white;
+    color: rgba(160, 160, 160, 1);
     font-size: 16px;
-    margin: 0px 0 15px;
+    margin: 0px 0 5px;
 }
 
 .timeline-content p {
-    color: #fff;
+    color: rgba(160, 160, 160, 1);
     font-size: 16px;
+    line-height: 1.5rem;
 }
 
 

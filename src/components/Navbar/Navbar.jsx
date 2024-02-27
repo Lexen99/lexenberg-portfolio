@@ -16,27 +16,23 @@ const Navbar = () => {
 
   return (
     <header className="navbar-header">
-      <h3 id="logo">Lexenberg</h3>
-      <nav ref={navRef}>
-        <a onClick={toggleElement} href="">
-          Home
-        </a>
-        <a href="">
-          <span>01.</span>About
-        </a>
-        <a href="">
-          <span>02.</span>Projects
-        </a>
-        <a href="">
-          <span>03.</span>Contact
-        </a>
-        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-          <Close />
+      <div className="item-width">
+        <h3 id="logo">Lexenberg</h3>
+        <nav ref={navRef}>
+          <a onClick={toggleElement} href="">
+            Home
+          </a>
+          <a href="">About</a>
+          <a href="">Projects</a>
+          <a href="">Contact</a>
+          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+            <Close />
+          </button>
+        </nav>
+        <button className="nav-btn" onClick={showNavbar}>
+          <Menu />
         </button>
-      </nav>
-      <button className="nav-btn" onClick={showNavbar}>
-        <Menu />
-      </button>
+      </div>
     </header>
   );
 };

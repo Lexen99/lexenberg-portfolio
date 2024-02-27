@@ -1,18 +1,18 @@
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
-import Timeline from "../components/Timeline/TimeLine";
+import Timeline from "../components/Timeline/Timeline";
 import About from "../components/About/About";
-import Logos from "../components/Logos/Logos"
+import Logos from "../components/Logos/Logos";
 import "./Home.css";
 
 const Home = () => {
   return (
     <main id="background">
+      <Navbar />
       <div className="portfolio_wrapper">
-        <Navbar />
         <Hero />
         <hr className="section-divider" />
-        <Timeline/>
+        <Timeline />
         <hr className="section-divider" />
         <About />
         <hr className="section-divider" />
