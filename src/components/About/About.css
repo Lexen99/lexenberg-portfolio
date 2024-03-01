@@ -21,6 +21,7 @@
   background-color: rgba(34, 34, 34, 1);
   border-radius: 7px;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .portrait-border {

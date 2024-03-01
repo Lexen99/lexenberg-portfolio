@@ -16,7 +16,7 @@ const Timeline = () => {
           <div className="timeline-dot today-dot"></div>
           <div className="timeline-date">2024-02-23</div>
           <div className="timeline-content">
-            <p>More to come!</p>
+            <p>More to come</p>
           </div>
         </div>
       </div>

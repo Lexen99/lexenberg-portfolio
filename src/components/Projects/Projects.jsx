@@ -9,7 +9,11 @@ const Projects = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const handleCardClick = (i) => {
-    setExpandedIndex(i === expandedIndex ? null : i);
+    if(i === expandedIndex) {
+      setExpandedIndex(null)
+    } else {
+      setExpandedIndex(i)
+    }
   };
 
   return (
@@ -22,41 +26,45 @@ const Projects = () => {
             onClick={() => handleCardClick(0)}
           >
             <img src={spotify} alt="" />
-            <div>
-              <h3>h3</h3>
-              <p>pargraf</p>
+            <div className="overlay">
+              <div className="overlay-text">
+                <h3 className="project-header">Spotify</h3>
+              </div>
             </div>
           </div>
           <div
             className={`project-card ${expandedIndex === 1 ? "expanded" : ""}`}
-            onClick={() => handleCardClick(0)}
+            onClick={() => handleCardClick(1)}
           >
             <img src={countryapp} alt="" />
-            <div>
-              <h3>h3</h3>
-              <p>pargraf</p>
+            <div className="overlay">
+              <div className="overlay-text">
+                <h3 className="project-header">Countries REST API</h3>
+              </div>
             </div>
           </div>
         </div>
         <div className="projects-rows">
           <div
             className={`project-card ${expandedIndex === 2 ? "expanded" : ""}`}
-            onClick={() => handleCardClick(0)}
+            onClick={() => handleCardClick(2)}
           >
             <img src={password} alt="" />
-            <div>
-              <h3>h3</h3>
-              <p>pargraf</p>
+            <div className="overlay">
+              <div className="overlay-text">
+                <h3 className="project-header">Password Generator</h3>
+              </div>
             </div>
           </div>
           <div
             className={`project-card ${expandedIndex === 3 ? "expanded" : ""}`}
-            onClick={() => handleCardClick(0)}
+            onClick={() => handleCardClick(3)}
           >
             <img src={motivation} alt="" />
-            <div>
-              <h3>h3</h3>
-              <p>pargraf</p>
+            <div className="overlay">
+              <div className="overlay-text">
+                <h3 className="project-header">Motivation Generator</h3>
+              </div>
             </div>
           </div>
         </div>

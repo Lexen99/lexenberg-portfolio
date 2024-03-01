@@ -33,12 +33,12 @@
 }
 
 .timeline-item:nth-child(odd) {
-    padding-right: calc(50% + 30px);
+    padding-right: calc(50% + 1.5rem);
     text-align: right;
 }
 
 .timeline-item:nth-child(even) {
-    padding-left: calc(50% + 30px);
+    padding-left: calc(50% + 1.5rem);
 }
 
 .timeline-dot {
@@ -57,13 +57,13 @@
 
 .timeline-date {
     color: rgba(160, 160, 160, 1);
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0px 0 5px;
 }
 
 .timeline-content p {
     color: rgba(160, 160, 160, 1);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5rem;
 }
 
