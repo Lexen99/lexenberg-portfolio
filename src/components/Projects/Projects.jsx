@@ -9,10 +9,10 @@ const Projects = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const handleCardClick = (i) => {
-    if(i === expandedIndex) {
-      setExpandedIndex(null)
+    if (i === expandedIndex) {
+      setExpandedIndex(null);
     } else {
-      setExpandedIndex(i)
+      setExpandedIndex(i);
     }
   };
 
@@ -28,7 +28,22 @@ const Projects = () => {
             <img src={spotify} alt="" />
             <div className="overlay">
               <div className="overlay-text">
-                <h3 className="project-header">Spotify</h3>
+                <h2 className="project-header">Spotify</h2>
+                <p className="description">
+                  Responsive Spotify clone application consisting of multiple
+                  components, leveraging Spotify's Web API and SDK. Enjoy album
+                  and playlist viewing, along with play, pause, rewind, and
+                  volume adjustment functionalities. Developed using React,
+                  JavaScript, and API integration
+                </p>
+                <div className="buttons-navigation">
+                  <button>
+                    <a href="https://github.com/Lexen99/spotify">Github</a>
+                  </button>
+                  <button>
+                    <a href="">View App</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -40,6 +55,19 @@ const Projects = () => {
             <div className="overlay">
               <div className="overlay-text">
                 <h3 className="project-header">Countries REST API</h3>
+                <p className="description">
+                  React-based country app with API integration. Search, filter
+                  by region, and toggle between dark and light modes for
+                  streamlined exploration.
+                </p>
+                <div className="buttons-navigation">
+                  <button>
+                    <a href="https://github.com/Lexen99/country-app">Github</a>
+                  </button>
+                  <button>
+                    <a href="https://flag-api-oliver.netlify.app/">View App</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -53,6 +81,9 @@ const Projects = () => {
             <div className="overlay">
               <div className="overlay-text">
                 <h3 className="project-header">Password Generator</h3>
+                <p className="description">
+                  JavaScript-powered password generator with HTML and CSS.
+                </p>
               </div>
             </div>
           </div>
@@ -64,6 +95,10 @@ const Projects = () => {
             <div className="overlay">
               <div className="overlay-text">
                 <h3 className="project-header">Motivation Generator</h3>
+                <p className="description">
+                  Motivation generator utilizing JavaScript, HTML, and CSS, with
+                  API integration.
+                </p>
               </div>
             </div>
           </div>
