@@ -18,7 +18,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <h2 className="section-heading">Projects</h2>
+      <h2 className="section-heading">Projects.</h2>
       <div className="projects-container">
         <div className="projects-rows">
           <div
@@ -84,6 +84,14 @@ const Projects = () => {
                 <p className="description">
                   JavaScript-powered password generator with HTML and CSS.
                 </p>
+                <div className="buttons-navigation">
+                  <button>
+                    <a href="https://github.com/Lexen99/spotify">Github</a>
+                  </button>
+                  <button>
+                    <a href="">View App</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -99,6 +107,14 @@ const Projects = () => {
                   Motivation generator utilizing JavaScript, HTML, and CSS, with
                   API integration.
                 </p>
+                <div className="buttons-navigation">
+                  <button>
+                    <a href="https://github.com/Lexen99/spotify">Github</a>
+                  </button>
+                  <button>
+                    <a href="">View App</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>

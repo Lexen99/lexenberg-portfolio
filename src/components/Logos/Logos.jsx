@@ -13,7 +13,7 @@ import express from "../../assets/express-js.png"
 const Logos = () => {
   return (
   <div className="Technologies-container">
-    <h2 className="section-heading">Technologies</h2>
+    <h2 className="section-heading">Technologies.</h2>
     <div className="Tech-container">
         <div className="tech-Cards"><img src={mui} alt="material-ui" /></div>
         <div className="tech-Cards"><img src={css} alt="css" /></div>
