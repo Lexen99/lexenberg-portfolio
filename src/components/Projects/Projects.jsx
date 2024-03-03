@@ -1,31 +1,28 @@
 import "./Projects.css";
 import { useState } from "react";
 import spotify from "../../assets/spotify-clone.png";
-import countryapp from "../../assets/country-app.png";
+import countryapp from "../../assets/country-app-dark.png";
 import password from "../../assets/password-generator.png";
 import motivation from "../../assets/Motivations-generator.png";
 
 const Projects = () => {
-  const [expandedIndex, setExpandedIndex] = useState(null);
-
-  const handleCardClick = (i) => {
-    if (i === expandedIndex) {
-      setExpandedIndex(null);
-    } else {
-      setExpandedIndex(i);
-    }
-  };
+  function handleCardClick(event) {
+    const card = event.currentTarget;
+    card.classList.toggle("clicked");
+  }
 
   return (
     <section id="projects">
       <h2 className="section-heading">Projects.</h2>
       <div className="projects-container">
-        <div className="projects-rows">
-          <div
-            className={`project-card ${expandedIndex === 0 ? "expanded" : ""}`}
-            onClick={() => handleCardClick(0)}
-          >
+        <div className="project-row">
+          <div className="project-name odd">
+            <h3>Spotify clone</h3>
+            <hr />
+          </div>
+          <div className="project-card" onClick={handleCardClick}>
             <img src={spotify} alt="" />
+
             <div className="overlay">
               <div className="overlay-text">
                 <h2 className="project-header">Spotify</h2>
@@ -47,42 +44,23 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div
-            className={`project-card ${expandedIndex === 1 ? "expanded" : ""}`}
-            onClick={() => handleCardClick(1)}
-          >
+        </div>
+        <div className="project-row">
+          <div className="project-name even">
+            <hr />
+            <h3>Countries REST API</h3>
+            
+          </div>
+          <div className="project-card" onClick={handleCardClick}>
             <img src={countryapp} alt="" />
+
             <div className="overlay">
               <div className="overlay-text">
-                <h3 className="project-header">Countries REST API</h3>
+                <h2 className="project-header">Countries REST API</h2>
                 <p className="description">
                   React-based country app with API integration. Search, filter
                   by region, and toggle between dark and light modes for
                   streamlined exploration.
-                </p>
-                <div className="buttons-navigation">
-                  <button>
-                    <a href="https://github.com/Lexen99/country-app">Github</a>
-                  </button>
-                  <button>
-                    <a href="https://flag-api-oliver.netlify.app/">View App</a>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="projects-rows">
-          <div
-            className={`project-card ${expandedIndex === 2 ? "expanded" : ""}`}
-            onClick={() => handleCardClick(2)}
-          >
-            <img src={password} alt="" />
-            <div className="overlay">
-              <div className="overlay-text">
-                <h3 className="project-header">Password Generator</h3>
-                <p className="description">
-                  JavaScript-powered password generator with HTML and CSS.
                 </p>
                 <div className="buttons-navigation">
                   <button>
@@ -95,17 +73,49 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div
-            className={`project-card ${expandedIndex === 3 ? "expanded" : ""}`}
-            onClick={() => handleCardClick(3)}
-          >
-            <img src={motivation} alt="" />
+        </div>
+        <div className="project-row">
+          <div className="project-name odd">
+            <h3>Password Generator</h3>
+            <hr />
+          </div>
+          <div className="project-card" onClick={handleCardClick}>
+            <img src={password} alt="" />
+
             <div className="overlay">
               <div className="overlay-text">
-                <h3 className="project-header">Motivation Generator</h3>
+                <h2 className="project-header">Password Generator</h2>
+                <p className="description">
+                  JavaScript-powered password generator with HTML and CSS.
+                  Create secure passwords with ease.
+                </p>
+                <div className="buttons-navigation">
+                  <button>
+                    <a href="https://github.com/Lexen99/spotify">Github</a>
+                  </button>
+                  <button>
+                    <a href="">View App</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="project-row">
+          <div className="project-name even">
+          <hr />
+            <h3>Motivation Generator</h3>
+            
+          </div>
+          <div className="project-card" onClick={handleCardClick}>
+            <img src={motivation} alt="" />
+
+            <div className="overlay">
+              <div className="overlay-text">
+                <h2 className="project-header">Motivation Generator</h2>
                 <p className="description">
                   Motivation generator utilizing JavaScript, HTML, and CSS, with
-                  API integration.
+                  API integration. Inspire yourself with a click.
                 </p>
                 <div className="buttons-navigation">
                   <button>
