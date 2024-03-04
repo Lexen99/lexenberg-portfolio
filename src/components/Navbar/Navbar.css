@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-  background: #fff;
+  background: linear-gradient(90deg, #8e44ad, #ff00bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -41,7 +41,7 @@ nav a::after {
   bottom: -3px;
   width: 0;
   height: 2px;
-  background-color: #fff;
+  background-image: linear-gradient(90deg, #8e44ad, #ff00bf);
   transition: width 0.3s ease;
 }
 
@@ -60,17 +60,11 @@ header .nav-btn {
   font-size: 1.8rem;
 }
 
-span {
-  background: linear-gradient(90deg, #8e44ad, #ff00bf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .item-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 35vw;
+  width: 30vw;
 }
 
 @media (max-width: 800px) {

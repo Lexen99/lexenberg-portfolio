@@ -16,16 +16,12 @@ const Projects = () => {
       <h2 className="section-heading">Projects.</h2>
       <div className="projects-container">
         <div className="project-row">
-          <div className="project-name odd">
-            <h3>Spotify clone</h3>
-            <hr />
-          </div>
           <div className="project-card" onClick={handleCardClick}>
             <img src={spotify} alt="" />
 
             <div className="overlay">
               <div className="overlay-text">
-                <h2 className="project-header">Spotify</h2>
+                <h2 className="project-header">Spotify Clone</h2>
                 <p className="description">
                   Responsive Spotify clone application consisting of multiple
                   components, leveraging Spotify's Web API and SDK. Enjoy album
@@ -38,7 +34,7 @@ const Projects = () => {
                     <a href="https://github.com/Lexen99/spotify">Github</a>
                   </button>
                   <button>
-                    <a href="">View App</a>
+                    <a href="https://oliver-spotify.netlify.app/">View App</a>
                   </button>
                 </div>
               </div>
@@ -48,8 +44,6 @@ const Projects = () => {
         <div className="project-row">
           <div className="project-name even">
             <hr />
-            <h3>Countries REST API</h3>
-            
           </div>
           <div className="project-card" onClick={handleCardClick}>
             <img src={countryapp} alt="" />
@@ -64,10 +58,10 @@ const Projects = () => {
                 </p>
                 <div className="buttons-navigation">
                   <button>
-                    <a href="https://github.com/Lexen99/spotify">Github</a>
+                    <a href="https://github.com/Lexen99/country-app">Github</a>
                   </button>
                   <button>
-                    <a href="">View App</a>
+                    <a href="https://flag-api-oliver.netlify.app/">View App</a>
                   </button>
                 </div>
               </div>
@@ -76,7 +70,6 @@ const Projects = () => {
         </div>
         <div className="project-row">
           <div className="project-name odd">
-            <h3>Password Generator</h3>
             <hr />
           </div>
           <div className="project-card" onClick={handleCardClick}>
@@ -91,10 +84,14 @@ const Projects = () => {
                 </p>
                 <div className="buttons-navigation">
                   <button>
-                    <a href="https://github.com/Lexen99/spotify">Github</a>
+                    <a href="https://github.com/Lexen99/password-generator">
+                      Github
+                    </a>
                   </button>
                   <button>
-                    <a href="">View App</a>
+                    <a href="https://password-generator-oliver.netlify.app/">
+                      View App
+                    </a>
                   </button>
                 </div>
               </div>
@@ -103,9 +100,7 @@ const Projects = () => {
         </div>
         <div className="project-row">
           <div className="project-name even">
-          <hr />
-            <h3>Motivation Generator</h3>
-            
+            <hr />
           </div>
           <div className="project-card" onClick={handleCardClick}>
             <img src={motivation} alt="" />
@@ -119,10 +114,14 @@ const Projects = () => {
                 </p>
                 <div className="buttons-navigation">
                   <button>
-                    <a href="https://github.com/Lexen99/spotify">Github</a>
+                    <a href="https://github.com/Lexen99/motivation-generator">
+                      Github
+                    </a>
                   </button>
                   <button>
-                    <a href="">View App</a>
+                    <a href="https://motivation-generator-oliver.netlify.app/">
+                      View App
+                    </a>
                   </button>
                 </div>
               </div>

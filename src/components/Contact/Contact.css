@@ -1,0 +1,58 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0px;
+}
+
+.contact-heading {
+  color: #fff;
+  font-size: 32px;
+}
+
+.contact-container p {
+  width: 80%;
+  color: rgba(160, 160, 160, 1);
+  font-size: 16px;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.contact-container span {
+  background: linear-gradient(90deg, #8e44ad, #ff00bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.cta-link {
+  text-decoration: none;
+  color: rgba(160, 160, 160, 1);
+  font-size: 1.5rem;
+  position: relative;
+  letter-spacing: 1px;
+  padding-top: 30px;
+}
+
+.cta-link:hover {
+  background: linear-gradient(90deg, #8e44ad, #ff00bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-image: linear-gradient(90deg, #8e44ad, #ff00bf);
+  transition: width 0.3s ease;
+}
+
+.cta-link:hover::after {
+  width: 100%;
+}

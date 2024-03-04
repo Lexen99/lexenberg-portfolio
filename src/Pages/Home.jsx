@@ -5,6 +5,7 @@ import Timeline from "../components/Timeline/Timeline";
 import About from "../components/About/About";
 import Logos from "../components/Logos/Logos";
 import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contact/Contact";
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
         <hr className="section-divider" />
         <Projects />
         <hr className="section-divider" />
+        <Contact />
       </div>
     </main>
   );
