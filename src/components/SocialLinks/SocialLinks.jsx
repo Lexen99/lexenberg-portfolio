@@ -19,10 +19,6 @@ const SocialLinks = () => {
         <img src="" alt="" className="link-logo"/>
         Mail
       </a>
-      <a className="link resume" href="">
-        <img src="" alt="" className="link-logo"/>
-        Resume
-      </a>
     </div>
   );
 };

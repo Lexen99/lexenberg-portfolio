@@ -24,6 +24,7 @@ const Home = () => {
         <Projects />
         <hr className="section-divider" />
         <Contact />
+        <hr className="section-divider last" />
       </div>
     </main>
   );

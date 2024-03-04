@@ -9,14 +9,14 @@ const Timeline = () => {
           <div className="timeline-dot"></div>
           <div className="timeline-date">2024-02-23</div>
           <div className="timeline-content">
-            <p>Graduated as a webdeveloper at Techover academy </p>
+            <p>Completed Web Development Program at Techover Academy</p>
           </div>
         </div>
         <div className="timeline-item">
           <div className="timeline-dot today-dot"></div>
           <div className="timeline-date">2024-02-23</div>
           <div className="timeline-content">
-            <p>More to come</p>
+            <p>Pursuing Further Growth</p>
           </div>
         </div>
       </div>

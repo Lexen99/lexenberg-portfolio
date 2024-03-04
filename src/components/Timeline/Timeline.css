@@ -3,7 +3,7 @@
     font-size: 34px;
     letter-spacing: 1px;
     font-weight: 600;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .timeline-items {
@@ -63,7 +63,7 @@
 
 .timeline-content p {
     color: rgba(160, 160, 160, 1);
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 1.5rem;
 }
 

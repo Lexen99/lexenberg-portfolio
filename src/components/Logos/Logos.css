@@ -40,6 +40,10 @@
 
 @media (max-width: 500px) {
     .tech-Cards {
-        height: 120px;
+        height: 110px;
+    }
+    .tech-Cards img {
+        width: 60px;
+        height: 50px;
     }
 }

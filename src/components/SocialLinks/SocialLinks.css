@@ -7,7 +7,7 @@
 .link {
     height: 50px;
     background-color: rgba(34, 34, 34, 1);
-    border-radius: 40px;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,6 +16,14 @@
     text-decoration: none;
     letter-spacing: 1px;
     z-index: 1;
-    font-weight: 300;
-    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+@media (max-width: 500px) {
+    .link {
+        font-size: 16px;
+        height: 44px;
+    }
 }
