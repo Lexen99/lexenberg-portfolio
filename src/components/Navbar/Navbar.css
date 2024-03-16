@@ -11,10 +11,9 @@ header {
   z-index: 1000;
 }
 
-#logo {
+#ol-logo {
   color: rgba(160, 160, 160, 1);
-  font-size: 1.2rem;
-  font-weight: 400;
+  height: 55px;
 }
 
 nav {

@@ -4,14 +4,34 @@
     gap: 15px;
 }
 
+.primary {
+    color: rgba(34, 34, 34, 1);
+    background-color: rgba(160, 160, 160, 1);
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+.secondary {
+    background-color: transparent;
+    border: 1px solid rgba(160, 160, 160, 1);
+    color: rgba(160, 160, 160, 1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.secondary:hover {
+    background-color: rgba(160, 160, 160, 1);
+    color: rgba(34, 34, 34, 1);
+    transition: 0.3s;
+}
+
 .link {
     height: 50px;
-    background-color: rgba(34, 34, 34, 1);
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     cursor: pointer;
     text-decoration: none;
     letter-spacing: 1px;
@@ -19,6 +39,7 @@
     font-size: 18px;
     font-weight: 600;
     padding: 10px 30px;
+    transition: 0.3s;
 }
 
 @media (max-width: 500px) {

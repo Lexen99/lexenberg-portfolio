@@ -10,15 +10,16 @@ const Timeline = () => {
           <div className="timeline-date">2015-2016</div>
           <div className="timeline-content">
             <p>
-              Moved to Örnsköldsvik to enroll in Modo's hockey gymnasium. Achieved JSM gold with both the J18 and J20 teams.
+              Moved to Örnsköldsvik to enroll in Modo's hockey gymnasium.
             </p>
           </div>
         </div>
         <div className="timeline-item">
           <div className="timeline-dot"></div>
-          <div className="timeline-date">2017</div>
+          <div className="timeline-date">2016-2017</div>
           <div className="timeline-content">
             <p>
+              Achieved JSM gold with both the J18 and J20 teams.
               Earned the opportunity to represent Modo at the Junior Club World Cup (JCWC), clinching a silver medal.
             </p>
           </div>
@@ -69,17 +70,10 @@ const Timeline = () => {
           </div>
         </div>
         <div className="timeline-item">
-          <div className="timeline-dot"></div>
-          <div className="timeline-date">2024-02-23</div>
-          <div className="timeline-content">
-            <p>Completed Web Development Program at Techover Academy</p>
-          </div>
-        </div>
-        <div className="timeline-item">
           <div className="timeline-dot today-dot"></div>
           <div className="timeline-date">2024-02-23</div>
           <div className="timeline-content">
-            <p>Pursuing Further Growth</p>
+            <p>Completed Web Development Program at Techover Academy</p>
           </div>
         </div>
       </div>
