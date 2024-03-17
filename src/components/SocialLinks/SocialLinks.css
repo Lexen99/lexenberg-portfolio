@@ -22,18 +22,8 @@
 }
 
 .secondary:hover {
+    color: rgba(34, 34, 34, 1);
     background-color: rgba(160, 160, 160, 1);
-    color: rgba(34, 34, 34, 1);
-    transition: 0.3s;
-}
-
-.secondary a {
-    text-decoration: none;
-    color: rgba(160, 160, 160, 1);
-}
-
-.secondary a:hover {
-    color: rgba(34, 34, 34, 1);
 }
 
 .link {

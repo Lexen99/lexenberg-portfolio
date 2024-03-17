@@ -16,8 +16,11 @@ const SocialLinks = () => {
           My Projects
         </button>
       </ScrollLink>
-      <button className="secondary link">
-        <a href="https://github.com/Lexen99">GitHub</a>
+      <button
+        className="secondary link"
+        onClick={() => (window.location.href = "https://github.com/Lexen99")}
+      >
+        GitHub
       </button>
     </div>
   );
