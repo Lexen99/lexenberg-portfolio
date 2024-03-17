@@ -1,18 +1,29 @@
 import "./SocialLinks.css";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const SocialLinks = () => {
 
   return (
     <div className="social_links">
-      <a
+      <ScrollLink
+      activeClass="active"
+      to="projects"
+      spy={true}
+      smooth={true}
+      offset={-100}
+      duration={900}
+      >
+      <button
         className="primary link"
         href=""
       >
-        <span>My Projects</span>
-      </a>
-      <a className="secondary link" href="https://github.com/Lexen99">
-        <span>GitHub</span>
-      </a>
+        My Projects
+      </button>
+      </ScrollLink>
+      <button className="secondary link" >
+        <a href="https://github.com/Lexen99">GitHub</a>
+        
+      </button>
     </div>
   );
 };
