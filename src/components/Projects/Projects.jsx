@@ -42,9 +42,6 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-row">
-          <div className="project-name even">
-            <hr />
-          </div>
           <div className="project-card" onClick={handleCardClick}>
             <img src={countryapp} alt="" />
 
@@ -69,9 +66,6 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-row">
-          <div className="project-name odd">
-            <hr />
-          </div>
           <div className="project-card" onClick={handleCardClick}>
             <img src={password} alt="" />
 
@@ -99,9 +93,6 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-row">
-          <div className="project-name even">
-            <hr />
-          </div>
           <div className="project-card" onClick={handleCardClick}>
             <img src={motivation} alt="" />
 

@@ -12,6 +12,12 @@
   color: white;
 }
 
+.hero-animation-container {
+  position: absolute;
+  top: 100px;
+  height: 10px;
+}
+
 .hero_profession {
   font-size: 56px;
   background: linear-gradient(90deg, #8e44ad, #ff00bf);
