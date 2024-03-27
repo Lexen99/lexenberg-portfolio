@@ -8,6 +8,8 @@ import olivermariestad from "../../assets/oliver-mariestad.png";
 import oliverväsby from "../../assets/oliver-väsby.jpg";
 
 const Timeline = () => {
+  const linearGradient = 'linear-gradient(90deg, #8e44ad, #ff00bf)';
+
   return (
     <section className="timeline-section">
       <h2 className="section-heading">My Timeline.</h2>
@@ -21,6 +23,7 @@ const Timeline = () => {
               style={{ backgroundImage: `url(${modobild})` }}
             >
             </div>
+            <div className="img-overlay-timeline"></div>
             <p>Moved to Örnsköldsvik to enroll in Modo's hockey gymnasium.</p>
           </div>
         </div>
@@ -34,6 +37,7 @@ const Timeline = () => {
               style={{ backgroundImage: `url(${olivervm})` }}
             >
             </div>
+            <div className="img-overlay-timeline"></div>
             <p>
               Achieved JSM gold with both the J18 and J20 teams. Earned the
               opportunity to represent Modo at the Junior Club World Cup (JCWC),
@@ -50,6 +54,7 @@ const Timeline = () => {
               style={{ backgroundImage: `url(${modovinst})` }}
             >
             </div>
+            <div className="img-overlay-timeline"></div>
             <p>Secured victory in the J20 championship my last year in modo.</p>
           </div>
         </div>
@@ -63,6 +68,7 @@ const Timeline = () => {
               style={{ backgroundImage: `url(${oliverhalmstad})` }}
             >
             </div>
+            <div className="img-overlay-timeline"></div>
             <p>
               Moved to Halmstad to compete in Hockeyettan, reaching the final,
               which was ultimately canceled due to the COVID-19 pandemic.
@@ -79,6 +85,7 @@ const Timeline = () => {
               style={{ backgroundImage: `url(${kvalserienhalmstad})` }}
             >
             </div>
+            <div className="img-overlay-timeline"></div>
             <p>
               Successfully qualified for Kvalserien with Halmstad, the playoffs
               to ascend to HockeyAllsvenskan.
@@ -94,6 +101,7 @@ const Timeline = () => {
               style={{ backgroundImage: `url(${oliverväsby})` }}
             >
             </div>
+            <div className="img-overlay-timeline"></div>
             <p>
               Returned to Stockholm and joined Väsby, striving once more for
               promotion through Kvalserien to HockeyAllsvenskan.
@@ -109,6 +117,7 @@ const Timeline = () => {
               style={{ backgroundImage: `url(${olivermariestad})` }}
             >
             </div>
+            <div className="img-overlay-timeline"></div>
             <p>
               Embarked on a new journey in Mariestad, seeking fresh challenges
               and experiences.

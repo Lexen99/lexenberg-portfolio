@@ -15,14 +15,14 @@ const Hero = () => {
         </div>
       </div>
 
-      <SocialLinks />
       <div className="intro-section">
         <p className="intro_paragraph">
-          Hey, I'm Oliver Lexenberg, an aspiring full-stack developer eager to
+          An aspiring full-stack developer eager to
           delve into the world of web development and create engaging online
           experiences.
         </p>
       </div>
+      <SocialLinks />
     </div>
   );
 };
