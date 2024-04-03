@@ -2,13 +2,12 @@ import "./Timeline.css";
 import modobild from "../../assets/oliver-modo1.png";
 import modovinst from "../../assets/modo-j20-vinst.png";
 import olivervm from "../../assets/oliver-vm.png";
-import oliverhalmstad from "../../assets/oliver-halmstad.jpg";
-import kvalserienhalmstad from "../../assets/kvalserien-halmstad1.png";
+import oliverhalmstad from "../../assets/halmstad-4.png";
+import kvalserienhalmstad from "../../assets/kvalserien-halmstad2.png";
 import olivermariestad from "../../assets/oliver-mariestad.png";
 import oliverväsby from "../../assets/oliver-väsby.jpg";
 
 const Timeline = () => {
-  const linearGradient = 'linear-gradient(90deg, #8e44ad, #ff00bf)';
 
   return (
     <section className="timeline-section">
@@ -51,7 +50,8 @@ const Timeline = () => {
           <div className="timeline-content">
             <div
               className="timeline-image"
-              style={{ backgroundImage: `url(${modovinst})` }}
+              id="background-center"
+              style={{ aspectRatio: '1/2', backgroundImage: `url(${modovinst})` }}
             >
             </div>
             <div className="img-overlay-timeline"></div>

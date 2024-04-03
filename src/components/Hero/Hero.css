@@ -1,7 +1,6 @@
 .hero {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   padding-top: 40px;
 }
 
@@ -12,10 +11,37 @@
   color: white;
 }
 
-.hero-animation-container {
+.intro-heading-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-animation-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero-portrait-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18.5rem;
   position: absolute;
-  top: 100px;
-  height: 10px;
+}
+
+#hero-portrait {
+  width: 12.5rem;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.headers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 .hero_profession {
@@ -33,18 +59,18 @@
   letter-spacing: 1px;
   line-height: 2rem;
   z-index: 1;
-  padding-bottom: 20px;
-}
-
-#Resume-btn {
-  width: 20%;
-  height: 60px;
-  border-radius: 10px;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 1000px) {
   .intro_paragraph {
     width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  #hero-portrait {
+    display: none;
   }
 }
 

@@ -1,9 +1,13 @@
+.timeline-section {
+    padding-bottom: 20px;
+}
+
 .section-heading {
     color: #fff;
     font-size: 34px;
     letter-spacing: 1px;
     font-weight: 600;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .timeline-items {
@@ -31,6 +35,8 @@
 .timeline-content {
     position: relative;
     box-sizing: border-box;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .timeline-image {
@@ -77,7 +83,7 @@
 }
 
 .timeline-item:last-child {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .timeline-item:nth-child(odd) {
@@ -142,5 +148,8 @@
     }
     .timeline-item:hover .img-overlay-timeline {
         display: none;
+    }
+    .timeline-item:hover .timeline-dot {
+        background: #fff;
     }
 }
